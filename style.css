@@ -1,0 +1,519 @@
+body {
+	background: #f0f0f0;
+	margin: 0;
+	border:0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+}
+h1{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	font-weight: 800;
+}
+h2{
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #00cc99;	
+}
+a{
+	color: #fff;
+	text-decoration: none; 
+}
+a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.current{
+	color: #fff;
+	text-decoration: underline;
+}
+.clear{
+	clear: both;
+}
+header{
+	background: #00cc99;
+	width: 100%;
+	height: 75px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100; 
+}
+#logo{
+	margin: 10px 0 10px 15%;
+	float:left;
+	width: 100px;
+	height: 54px;
+	background: url(../img/main-logo.png) no-repeat center;
+}
+nav{
+	float: right;
+	padding: 5px 10%; 
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+	padding: 5px;
+	font-size: 25px;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+}
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(../img/icon.png) center;
+}
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+#bread{
+	margin: 75px 0 0 0;
+	background: #fff;
+	width: 100%;
+	height: 40px;
+	position: inherit;
+	top: 0px;
+	left: 0;
+	z-index: 100;
+	opacity: 0.50;
+}
+#bread p{
+	padding:0 0 0 15%;
+	color: #00cc99;
+}
+#pool-back{
+	background: url(../img/pool-690034_1280.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 853px;
+	z-index: 1;	
+}
+#pool-back-content{
+	padding-top: 150px;
+	z-index: 2;
+}
+#block-left{
+	width: 40%;
+	float: left;
+	margin: 0 0 0 12%;
+	background: #333366;
+	opacity: 0.70;
+	border: 3px solid #fff;
+}
+#block-left h1{
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	font-weight: 800;
+	font-size: 40px;
+	margin: 0 10px;
+	color: #fff;
+}	
+#block-left h2{
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	font-size: 35px;
+	margin: 0 10px;
+	font-weight: 400;
+	color: #fff;	
+}
+#block-left h4 a{
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	font-size: 15px;
+	margin: 0 10px;
+	font-weight: 400;
+	color: #fff;	
+}
+#block-left p{
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+}
+#block-right{
+	width: 15%;
+	float: right;
+	margin: 0 10% 0 0;
+	background: #333366;
+	opacity: 0.60;
+}
+#block-right h2{
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	font-size: 25px;
+	margin: 0 10px;
+	font-weight: 400;
+	color: #fff;	
+}
+#block-right p{
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	font-size: 15px;
+	margin: 0 15px;
+	color: #fff;
+}
+#booking{
+	width: 40%;
+	background-color: #ff3366;
+	border: 2px solid #fff;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 8%;
+	padding: 20px 50px;
+}
+#booking label{
+	font-size: 15px;
+	color: #fff;
+}
+#booking .button{
+	background: #fff;
+	width: 20%;
+	height: 30px;
+	border: 1px solid #fff;
+	margin: 0 5px 15px 0;
+}
+#resort{
+	background: transparent;
+	width: 50%;
+	height: 30px;
+	border: 1px solid #fff;
+	margin: 0 5px 15px 0;
+}
+#date, #nights, #adults, #kids{
+	background: transparent;
+	width: 15%;
+	height: 30px;
+	border: 1px solid #fff;
+	margin: 0 5px 15px 0;
+}
+
+.container {
+  display:flex;
+  justify-content:center;
+}
+.container > div {
+  margin:5px;
+}
+.container .button{
+	margin: 15px 30% 0 30%;
+	width: 150px;
+  	height: 30px;
+  	border: 2px solid #fff;
+  	background-color: transparent;
+}
+#first {
+  background: url(../img/woman1.jpg) no-repeat ;
+  width: 360px;
+  height: 257px;
+}
+#first h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#first  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#second {
+  background: url(../img/woman2.jpg) no-repeat;
+	width: 360px;
+	height: 257px;
+}
+#second h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#second  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#third {
+  background: url(../img/woman3.jpg) no-repeat;
+	width: 360px;
+	height: 257px;
+}
+#third h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#third  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#fourth {
+  background: url(../img/woman1-2.jpg) no-repeat ;
+  width: 360px;
+  height: 257px;
+}
+#fourth h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#fourth  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#fifth {
+  background: url(../img/woman2.jpg) no-repeat;
+	width: 360px;
+	height: 257px;
+}
+#fifth h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#fifth  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#sixth {
+  background: url(../img/woman3.jpg) no-repeat;
+	width: 360px;
+	height: 257px;
+}
+#sixth h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#sixth  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#seventh {
+  background: url(../img/woman1.jpg) no-repeat ;
+  width: 360px;
+  height: 257px;
+}
+#seventh h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#seventh  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#eighth {
+  background: url(../img/woman2-2.jpg) no-repeat;
+	width: 360px;
+	height: 257px;
+}
+#eighth h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#eighth  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+#nineth {
+  background: url(../img/woman3.jpg) no-repeat;
+	width: 360px;
+	height: 257px;
+}
+#nineth h6{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+#nineth  p{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 200;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff; 
+}
+footer{
+	background: #00cc99;
+	width: 100%;
+	height: auto;
+	padding: 5px 0;
+}
+footer p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 20px;
+}
+#register-newsletter{
+	text-align: center;
+	margin: 20px auto 100px auto;
+}
+#register-newsletter input[type=text]{
+	height: 30px;
+	width: 35%;
+	vertical-align: top;
+	border: 3px solid #fff;
+	background: #00cc99;
+}
+
+#register-newsletter .button {
+	height: 36px;
+	width: 100px;
+	background: #fff;
+	border: 3px solid #fff;
+	color: #00cc99
+}
+/* ------ MEDIA ------ */
+
+		@media screen and (max-width: 1080px){
+		header{
+			position: absolute;
+		}
+		#menu-icon{
+			display: inline-block;
+		}
+		nav ul, nav:active ul{
+			display: none;
+			position: absolute;
+			padding: 20px;
+			background: #00cc99;
+			border: 1px solid #FFF;
+			right: 10px;
+			top: 60px;
+			width: 25%;
+			border-radius: 2px 0 2px 2px; 
+			z-index: 102;
+		}
+		nav li{
+			text-align: center;
+			width: 100%;
+			padding: 10px 0;
+			margin: 0;
+		}
+		nav:hover ul{
+			display: block;
+		}
+		section{
+			float: left;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+  		display:table;
+  		justify-content:center;
+  		width: 80%;
+  		margin: 0 0 0 5%;
+  		padding: 10px;
+		}
+		#block-left{
+		width: 80%;
+		float: left;
+		margin: 0 0 0 5%;
+		background: #333366;
+		opacity: 0.70;
+		border: 3px solid #fff;
+		padding: 10px;
+		}
+		#block-right{
+		width: 30%;
+		float: left;
+		margin: 5% 5%;
+		background: #333366;
+		opacity: 0.60;
+		}
+		#booking{
+		width: 80%;
+		height: 150px;
+		background-color: #ff3366;
+		border: 2px solid #fff;
+		margin: 0 0 0 5%;
+		padding: 10px;
+		}
+	}
